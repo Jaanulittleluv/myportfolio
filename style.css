@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+    /*Navigation*/
+    
+     *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+      }
+    
+      ul{
+        list-style-type: none;
+        overflow: hidden;
+        background-color: #1e293b;
+      }
+    
+      li{
+        float: left;
+      }
+    
+      li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+    
+      li a:hover:not(.active) {
+        background-color: #475569;
+      }
+    
+      .active {
+        background-color: #475569;
+      }
+    
+      .home{
+        color: #fff;
+      }
+
+      /*about section*/
+      #about{
+        background-color:#e2e8f0;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        margin:0 auto;
+        position:flex;
+        padding: 5% 80px 5%;
+        width: 100%;
+       } 
+      .about-text{
+        position: relative;
+        width: 50%;
+        float: left;
+        font-family: calibri;
+        padding-left: 40px;
+
+      } 
+     .about-me{/*image*/
+        position: relative;
+        width: 50%;
+        float: left;
+        margin:auto;
+        padding-left: 150px;
+     } 
+      img {
+        object-fit: contain;
+     }  
+      .about-text h1{
+        font-size: 3rem;
+        color:#1e293b;
+      }  
+      .about-text h2{
+        font-size: 3rem;
+        color:#000000;
+        font-weight: 400;
+      }  
+     .about-text h1,h2{
+        margin: 0px;
+        padding: 0px;
+      }   
+      .about-text p{
+        font-size: 1.2rem;
+        color:#000000;
+        text-align: initial;
+      }     
+      .about-text button{
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        background-color:#073488;
+      }  
+      .about-text button:hover{
+        background-color: #FFFFFF;
+        transition: all ease 0.3s;
+      }
+    
+      /*links for social medias*/
+      .social{
+        position: absolute;
+        left: 50px;
+        bottom: 50px;
+        display: flex;
+        }  
+      .social a{
+        margin: 6px 12px;
+        }  
+      .social i{
+        color:rgba(14, 2, 2, 0.932);
+        font-size: 18px;
+        }
+      .social a:hover i{
+        color:#475569;
+        transition: all ease 0.5s;
+        }
+
+          /*projects section*/
+          #projects{
+            background-color:#e4e4e7;
+            box-sizing: border-box;
+            align-items: center;
+            padding: 0;
+           } 
+          .projects_h1{
+            text-align: center;
+            font-size: 3rem;
+            color:#1e293b;
+          }
+          .center {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 90%;
+            text-align: justify;
+            margin-left: auto;
+            margin-right: auto;
+          }
+          .center_td{
+            text-align: center;
+            padding: 30px 30px 30px;
+          }              
+          .proj{
+            margin: 6px 12px;
+          }              
+          .project i{
+            color:rgba(16, 1, 1, 0.985);
+            font-size: 14px;
+          }           
+          .project a:hover i{
+            color:#475569;
+            transition: all ease 0.5s;
+          }
+
+          /*skills section*/
+      #skills {
+        margin: auto;
+        text-align: center;
+        background-color: #e2e8f0;
+        box-sizing: border-box;
+      }
+      .skills_h1 {
+        margin-bottom: 1rem;
+        text-align: center;
+        font-size: 3rem;
+        color:#1e293b;
+      }
+      .skills-wrapper img {
+        padding: 1.25rem;
+      }
+      .icon {
+        width: 11.875rem;
+        height: 11.25rem;
+      }
+
+      /*contact*/
+      #contact{
+        background-color: #e4e4e7;
+        box-sizing: border-box;
+      }
+      .contact_h1{
+        text-align: center;
+        font-size: 3rem;
+        color:#1e293b;
+       }
+       .contact_table{
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+        background-color: #cbd5e1;
+        border-radius: 30px;
+       }   
+      .contactme i{
+        color:rgba(14, 2, 2, 0.932);
+        font-size: 38px;
+      }  
+      .contactme a:hover i{
+        color:#475569;
+        transition: all ease 0.5s;
+      }
+      /*footer section*/
+      footer {
+        background-color: #1e293b;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        bottom: 0;
+        width: 98.5%;
+      }
